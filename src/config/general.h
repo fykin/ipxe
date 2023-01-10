@@ -36,10 +36,10 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 
 #define	NET_PROTO_IPV4		/* IPv4 protocol */
 //#define NET_PROTO_IPV6	/* IPv6 protocol */
-#undef	NET_PROTO_FCOE		/* Fibre Channel over Ethernet protocol */
-#define	NET_PROTO_STP		/* Spanning Tree protocol */
-#define	NET_PROTO_LACP		/* Link Aggregation control protocol */
-#define	NET_PROTO_EAPOL		/* EAP over LAN protocol */
+//#undef	NET_PROTO_FCOE		/* Fibre Channel over Ethernet protocol */
+//#define	NET_PROTO_STP		/* Spanning Tree protocol */
+//#define	NET_PROTO_LACP		/* Link Aggregation control protocol */
+//#define	NET_PROTO_EAPOL		/* EAP over LAN protocol */
 
 /*
  * PXE support
@@ -53,8 +53,8 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
  *
  */
 
-#define	DOWNLOAD_PROTO_TFTP	/* Trivial File Transfer Protocol */
-#define	DOWNLOAD_PROTO_HTTP	/* Hypertext Transfer Protocol */
+//#define	DOWNLOAD_PROTO_TFTP	/* Trivial File Transfer Protocol */
+//#define	DOWNLOAD_PROTO_HTTP	/* Hypertext Transfer Protocol */
 #undef	DOWNLOAD_PROTO_HTTPS	/* Secure Hypertext Transfer Protocol */
 #undef	DOWNLOAD_PROTO_FTP	/* File Transfer Protocol */
 #undef	DOWNLOAD_PROTO_SLAM	/* Scalable Local Area Multicast */
@@ -66,7 +66,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
  *
  */
 
-//#undef	SANBOOT_PROTO_ISCSI	/* iSCSI protocol */
+#define	SANBOOT_PROTO_ISCSI	/* iSCSI protocol */
 //#undef	SANBOOT_PROTO_AOE	/* AoE protocol */
 //#undef	SANBOOT_PROTO_IB_SRP	/* Infiniband SCSI RDMA protocol */
 //#undef	SANBOOT_PROTO_FCP	/* Fibre Channel protocol */
@@ -76,8 +76,8 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
  * HTTP extensions
  *
  */
-#define HTTP_AUTH_BASIC		/* Basic authentication */
-#define HTTP_AUTH_DIGEST	/* Digest authentication */
+//#define HTTP_AUTH_BASIC		/* Basic authentication */
+//#define HTTP_AUTH_DIGEST	/* Digest authentication */
 //#define HTTP_AUTH_NTLM	/* NTLM authentication */
 //#define HTTP_ENC_PEERDIST	/* PeerDist content encoding */
 //#define HTTP_HACK_GCE		/* Google Compute Engine hacks */

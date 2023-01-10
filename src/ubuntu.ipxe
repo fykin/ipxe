@@ -1,0 +1,6 @@
+#!ipxe
+
+dhcp
+set root-path iscsi:172.20.0.8:::1:iqn.2000-01.com.synology:ubuntu-server
+set keep-san 1
+sanboot ${root-path}
